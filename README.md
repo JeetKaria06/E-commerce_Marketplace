@@ -31,3 +31,5 @@ npm run dev
 ```
 
 The server is up and running now!
+
+> One can add authentication token to the request body or to the request query or in the header with key "x-access-token"
