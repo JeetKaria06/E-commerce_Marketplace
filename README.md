@@ -33,3 +33,12 @@ npm run dev
 The server is up and running now!
 
 > One can add authentication token to the request body or to the request query or in the header with key "x-access-token"
+
+---
+**NOTE**
+
+When this server runs it creates the tables needed and if the table with same name exists in your localhost then it may create problem. So, it is necessary that you first delete tables named "Users", "Products", and "Orders" from your database.
+
+Also, it is assumed that you have postgresql in your machine pre-installed. If it is not, then refer [this](https://www.postgresql.org/download/linux/ubuntu/).
+
+---
